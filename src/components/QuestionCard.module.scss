@@ -1,0 +1,42 @@
+.questionCard {
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin: 20px auto;
+	max-width: 400px;
+	background-color: #fff;
+
+	p {
+		font-size: 18px;
+		font-weight: bold;
+		margin-bottom: 16px;
+	}
+
+	ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	li {
+		background-color: #f5f5f5;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		margin: 8px 0;
+		padding: 12px;
+		cursor: pointer;
+		transition: background-color 0.3s;
+
+		&:hover {
+			background-color: #e0e0e0;
+		}
+	}
+}
+
+.selected {
+  background-color: #4caf50 !important;
+  color: #fff;
+  border-color: #4caf50;
+}
+  
